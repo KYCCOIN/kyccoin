@@ -1,0 +1,26 @@
+# /etc/conf.d/kyccoind: config file for /etc/init.d/kyccoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/kyccoin/kyccoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/kyccoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/kyccoind.pid"
+
+# Where to write kyccoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/kyccoind"
+
+# User and group to own kyccoind process
+#BITCOIND_USER="kyccoin"
+#BITCOIND_GROUP="kyccoin"
+
+# Path to kyccoind executable
+#BITCOIND_BIN="/usr/bin/kyccoind"
+
+# Nice value to run kyccoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

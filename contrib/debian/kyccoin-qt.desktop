@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=kyccoin
+Comment=kyccoin P2P Cryptocurrency
+Comment[fr]=kyccoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=kyccoin, eşten eşe kriptografik sanal para birimi
+Exec=kyccoin-qt %u
+Terminal=false
+Type=Application
+Icon=kyccoin128
+MimeType=x-scheme-handler/kyccoin;
+Categories=Office;Finance;

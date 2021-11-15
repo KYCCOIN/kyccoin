@@ -1,0 +1,26 @@
+[Unit]
+Description=kyccoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=kyccoin
+Group=kyccoin
+
+Type=kyccoin
+PIDFile=/var/lib/kyccoind/kyccoind.pid
+
+ExecStart=/usr/bin/kyccoind -daemon -pid=/var/lib/kyccoind/kyccoind.pid \
+          -conf=/etc/kyccoin/kyccoin.conf -datadir=/var/lib/kyccoind
+
+ExecStop=-/usr/bin/kyccoin-cli -conf=/etc/kyccoin/kyccoin.conf \
+         -datadir=/var/lib/kyccoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

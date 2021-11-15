@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/kyccoin_bg.qm</file>
+        <file alias="ca">locale/kyccoin_ca.qm</file>
+        <file alias="cs">locale/kyccoin_cs.qm</file>
+        <file alias="da">locale/kyccoin_da.qm</file>
+        <file alias="de">locale/kyccoin_de.qm</file>
+        <file alias="en">locale/kyccoin_en.qm</file>
+        <file alias="en_US">locale/kyccoin_en_US.qm</file>
+        <file alias="eo">locale/kyccoin_eo.qm</file>
+        <file alias="es">locale/kyccoin_es.qm</file>
+        <file alias="es_ES">locale/kyccoin_es_ES.qm</file>
+        <file alias="fi">locale/kyccoin_fi.qm</file>
+        <file alias="fr_FR">locale/kyccoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/kyccoin_hi_IN.qm</file>
+        <file alias="hr">locale/kyccoin_hr.qm</file>
+        <file alias="hr_HR">locale/kyccoin_hr_HR.qm</file>
+        <file alias="it">locale/kyccoin_it.qm</file>
+        <file alias="ja">locale/kyccoin_ja.qm</file>
+        <file alias="ko_KR">locale/kyccoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/kyccoin_lt_LT.qm</file>
+        <file alias="nl">locale/kyccoin_nl.qm</file>
+        <file alias="pl">locale/kyccoin_pl.qm</file>
+        <file alias="pt">locale/kyccoin_pt.qm</file>
+        <file alias="pt_BR">locale/kyccoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/kyccoin_ro_RO.qm</file>
+        <file alias="ru">locale/kyccoin_ru.qm</file>
+        <file alias="sk">locale/kyccoin_sk.qm</file>
+        <file alias="sv">locale/kyccoin_sv.qm</file>
+        <file alias="tr">locale/kyccoin_tr.qm</file>
+        <file alias="uk">locale/kyccoin_uk.qm</file>
+        <file alias="vi">locale/kyccoin_vi.qm</file>
+        <file alias="zh_CN">locale/kyccoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/kyccoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
